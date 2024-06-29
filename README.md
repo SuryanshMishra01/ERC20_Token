@@ -16,7 +16,21 @@ The program focuses on three functions:
 To run and deploy this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the "myERC20token" file in my repo with a .sol extension and compile it. To deploy you can either use REMIX IDE Environment or you use Sepolia testnet using Metamask wallet (recommended).
 
 ## Interacting with program
+After deployment, we can interact with program by calling the functions that will appear on the left as shown in the screen shot.Here owner minted 50 tokens but from the other address the same call is reverted. 
 
+![image](https://github.com/SuryanshMishra01/ERC20_Token/assets/116947777/ca11b680-c2a8-4c6c-a721-205b60b2494c)
+
+We can use withdraw_Marvels() function to transfer tokens from Owner's account to Caller' account.
+
+![image](https://github.com/SuryanshMishra01/ERC20_Token/assets/116947777/f5aa45a0-ec07-45eb-aaae-0db39687a9c1)
+
+We can burn the existing tokens from any valid accounts using burn_Marvels() function and that tokens will be removed from the network.
+
+![image](https://github.com/SuryanshMishra01/ERC20_Token/assets/116947777/18186da1-6dcc-450b-811a-3322499f430f)
+
+Also, to check the no. of tokens in any account using balanceOf() and the total no. of tokens on the network using totalSupply.
+
+![image](https://github.com/SuryanshMishra01/ERC20_Token/assets/116947777/f463fd84-0ea6-4ab3-838f-5b4bdfb37396)
 
 # Author 
 Suryansh Mishra @suryanshmishra0704@gmail.com
